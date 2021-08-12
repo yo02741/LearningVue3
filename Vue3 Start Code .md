@@ -4,6 +4,7 @@
 
 &nbsp;
 
+## CDN
 首先先來看到使用 `CDN` 的方式引入 Vue 3： 
 
 
@@ -68,6 +69,8 @@
 
 ---
 
+## ESM
+
 再來看到使用 `ESM` 的方式引入 Vue 3： 
 
 這邊注意 ESM 引入的方式，我們要先將 script 的 type 設定為 `module`，這樣我們就可以使用 import 的方式引入需要的功能了。
@@ -109,5 +112,7 @@ Vue 來源記得要選擇 ESM 版本的，與上方 CDN 引入的不同喔，詳
 ```
 
 ---
+
+## Vue CLI
 
 若是使用 SFC （ Single File Components ）來撰寫 Vue，在 `.vue` 檔中的 script 內 `import { 你要引入的 Methods } from 'vue'` 即可，同樣 Methods 前不需要加 Vue。
